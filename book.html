@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Food.com</title>
+        <link rel="shortcut icon" type="image/x-icon" href="image\favicon.png"/>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rowdies&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="foodwebcss\mainnav.css">
+        <link rel="stylesheet" href="foodwebcss\footer.css">
+        <link rel="stylesheet" href="foodwebcss\search.css">
+        <link rel="stylesheet" href="foodwebcss\book.css">
+    </head>
+    <body>
+
+        <header class="main-nav">
+        <ul class="main-nav__menu">
+          <span>
+            <a class="main-nav__logo-link" href="https://www.food.com/">Food<span class="dot">.</span></a>
+          </span>
+          <li class="main-nav__menu-item">
+            <a class="main-nav__menu-item-link" href="#">RECIPES</a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a class="main-nav__menu-item-link" href="#">POPULAR</a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a class="main-nav__menu-item-link" href="#">QUICK AND EASY</a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a class="main-nav__menu-item-search-link" href="search.html"><ion-icon class="main-nav__menu-item-link-icon" name="search-outline"></ion-icon><span class="main-nav__text">Search</span></a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a class="main-nav__menu-item-search-link" href="book.html"><ion-icon class="main-nav__menu-item-link-icon" name="bookmark-outline"></ion-icon><span class="main-nav__text">Saves</span></a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a class="main-nav__menu-item-search-link" href="https://www.food.com/"><ion-icon class="main-nav__menu-item-link-icon" name="person-outline"></ion-icon><span class="main-nav__text">Sign In</span></a>
+          </li>
+        </ul>
+        <span class="saves">SAVES</span>
+        <a class="edit" href="search.html"><ion-icon class="icon"name="search-outline"></ion-icon><span>|EDIT</span></a>
+        </header>
+
+
+        <div class="tab">
+          <h2 class="tab__menu"><a class="tab__recipe" href="#">RECIPES</h2></a>
+          <h2 class="tab__menu"><a class="tab__myboard" href="#">MY BOARDS</h2></a>
+        </div>
+
+      <div class="book-box">
+        <a class="box__link1"href="#"><ion-icon   class="box__icon" name="add-circle-outline"></ion-icon>
+        <p class="box__text1">DISCOVER <br>RECIPES</p></a>
+        <p class="box__text2">.... or ....</p>
+        <a class="box__link2" href="#"> <p class="box__text3">Add your own recipes</p></a>
+      </div>
+      <hr>
+      <div class="signup">
+      <p><a class="signup__link" href="#">SIGN UP</a></p>
+      <p class="login__link">Already a member ? <a href="#" >Log in</a></p>
+    </div>
+    <div class="search-box">
+      <span class="suggestion">I WANT TO MAKE</span><ion-icon name="search-outline"></ion-icon><input type="text" placeholder="search here or try our suggestions below" size="50"><br><br>
+      <div>
+      <span class="search-box__option">alr fryer recipes</span>
+      <span class="search-box__option">slow-cokker fraves</span>
+      <span class="search-box__option">top copycat recipes</span>
+      <br><br>
+      <span class="search-box__option">japanses food</span>
+      <span class="search-box__option">weeknight eats</span>
+      <span class="search-box__option">healthy lunch</span>
+  </div>
+  </div>
+
+    <footer class="footer">
+      <ul class="social-icon">
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon class="social-icon__icon" name="logo-facebook"></ion-icon>
+          </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon class="social-icon__icon" name="logo-instagram"></ion-icon>
+          </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon class="social-icon__icon" name="logo-pinterest"></ion-icon>
+          </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon class="social-icon__icon" name="logo-youtube"></ion-icon>
+          </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon class="social-icon__icon" name="logo-twitter"></ion-icon>
+          </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon class="social-icon__icon"name="mail-open-outline"></ion-icon>
+          </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon class="social-icon__icon" name="arrow-up-outline"></ion-icon>Back to Top
+          </a></li>
+      </ul>
+      <ul class="footer-nav">
+        <li class="footer-nav__menu-item"><a class="footer-nav__menu-link" href="https://www.food.com/">All Categories
+        </a></li>
+        <li class="footer-nav__menu-item"><a class="footer-nav__menu-link" href="https://www.food.com/">Site Map</a></li>
+        <li class="footer-nav__menu-item"><a class="footer-nav__menu-link" href="https://www.food.com/">About Us
+        </a></li>
+        <li class="footer-nav__menu-item"><a class="footer-nav__menu-link" href="https://www.food.com/">Help</a></li>
+        </ul>
+        <div class="footer-right">
+        <p class="footer-text1">The Discovery Family of Networks</p>
+        <p class="footer-text2">@ 2023 Warner Bros. Discovery, Inc. or its subsidiaries and affiliates. All rights reserved.</p>
+        <ul class="footer-nav">
+          <li class="footer-nav__menu-item"><a class="footer-nav__menu-link" href="https://www.food.com/">Advertise
+          </a></li>
+          <li class="footer-nav__menu-item"><a class="footer-nav__menu-link" href="https://www.food.com/">
+            AdChoices</a></li>
+          <li class="footer-nav__menu-item"><a class="footer-nav__menu-link" href="https://www.food.com/">Privacy Notice
+          </a></li>
+          <li class="footer-nav__menu-item"><a class="footer-nav__menu-link" href="https://www.food.com/">Visitor Agreement</a></li>
+        </ul>
+
+      <ul class="footer-nav">
+        <li class="footer-nav__menu-item"><a class="footer-nav__menu-link" href="https://www.food.com/">California Privacy Notice
+        </a></li>
+        <li class="footer-nav__menu-item"><a class="footer-nav__menu-link" href="https://www.food.com/">
+          Do Not Sell or Share My Personal Information</a></li>
+      </ul>
+    </div>
+    </footer>
+      </body>
+</html>

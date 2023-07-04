@@ -1,0 +1,131 @@
+.main-nav__menu-item-search-link{
+    text-decoration: none;
+    color: white;
+}
+.main-nav__menu-item-search-link:hover{
+    color: lightseagreen;
+}
+body{
+    background-color: #f0f0f0;
+}
+.main-nav__text{
+    color: white;
+
+}
+
+.main-nav__menu {
+    display: inline-flex;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+.saves{
+    margin-left: 600px;
+    margin-right: 400px;
+    font-size: 32px;
+
+}
+.icon{
+    color: lightseagreen;
+}
+.icon:hover{
+    color: white;
+}
+.edit {
+    color:lightseagreen;
+    text-decoration: none;
+}
+.edit:hover{
+    color:white;
+}
+.tab{
+    display: inline-flex;
+    padding-left: 400px;
+    background-color: white;
+    width: 949px;
+}
+.tab__recipe{
+    text-decoration: none;
+    color: black;
+}
+.tab__myboard {
+    text-decoration: none;
+    color:black;
+}
+.tab__myboard:hover {
+    color:purple;
+}
+.tab__recipe:hover {
+    color:purple;
+}
+.tab__menu {
+    padding-left: 100px;
+}
+.book-box {
+    width: 230px;
+    height: 380px;
+    background-color: white;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 20px;
+
+}
+.box__icon {
+    margin-top: 140px;
+    font-size: 40px;
+    color:purple;
+}
+.box__text1 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:purple;
+}
+.box__text2 {
+    margin-top: 70px;
+    font-size: 12px;
+}
+.box__text3 {
+    margin-top: 20px;
+    color:purple;
+    font-size: 15px;
+    font-weight: bold;
+}
+.box__link1 {
+    text-decoration: none;
+}
+.box__link2 {
+    text-decoration: none;
+}
+.box__link2:hover{
+    text-decoration: underline;
+}
+.signup {
+    text-align: center;
+    padding: 10px;
+}
+.signup__link {
+    text-decoration: none;
+    padding: 9px 28px;
+    background-color: #77e2e1;
+    color:black;
+    font-size: bold;
+    font-size: 20px;
+    line-height: 25px;
+}
+.signup__link:hover{
+    background-color:#8a2be2 ;
+}
+.login__link{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.login__link a{
+    color:#8a2be2;
+    text-decoration: none;
+}
+.login__link a:hover{
+    text-decoration: underline;
+}
